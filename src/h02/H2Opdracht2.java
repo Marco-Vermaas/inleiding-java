@@ -4,17 +4,16 @@ import javax.swing.*;
 import java.applet.Applet;
 import java.awt.*;
 
-
-public class Show extends Applet {
-
+public class H2Opdracht2 extends Applet {
 
     public void init() {
-      setBackground(Color.BLUE);
+        setBackground(Color.WHITE);
     }
 
     public void paint(Graphics g) {
+        g.setColor(Color.BLUE);
+        g.drawString("Marco", 75, 35);
         g.setColor(Color.RED);
-        g.drawString("Welcome to Java", 50, 60);
+        g.drawString("Vermaas", 75, 45);
     }
-
 }
